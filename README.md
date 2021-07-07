@@ -12,10 +12,12 @@ MVP
 
 Extras
 - Image upload system
-- Pushing notifications (add phonenumber to User)
-
+- Pushing notifications (add PhoneNumber to User)
+- parental controls (lock down everything except checklist)
 
 ### - Target audience
+Parents with kids that need medicine
+
 ### - Tech stack
 Backend Railsapi
 Frontend in React
@@ -28,7 +30,17 @@ Frontend in React
 
 ## User Stories
 <!-- CMP1043-5.1 Provide UX/UI design documentation(user stories) that adequately show Agile methodology implementation. - Provides multiple user stories that use ‘persona, what and why’ that outline meaningful features of project. Shows evidence of user story revision and refinement. -->
+MVP
+- As a parent, I want a Login system so I can see my information.
+- As a Parent, I want to make a medicine routine in order to allow my children to take their medicine.
+- As a parent, I want to add medicine to the list if it does not already exist, in order to keep the list accurate.
+- As a kid, I want to have an understandable description of what the medicine does, so I can know why I am taking it.
+- As a kid, I want a Reward system to give me incentive to take my medicine.
+- As a parent, I want a Reminder system so I can be told if my kids have not had their medicine.
 
+Extras
+- As a parent/kid, I would like to have an Image of the medicine so I know what the medicine looks like
+- As a busy parent, I would like the reminders to be sent to my mobile, so I can still receive them on the go.
 
 ## Wireframes for multiple standard screen sizes, created using industry standard software
 
