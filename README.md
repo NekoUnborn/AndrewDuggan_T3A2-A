@@ -49,3 +49,7 @@ Extras
 
 ## Screenshots of your Trello board throughout the duration of the project
 <!-- CMP1043-5.2 Select and follow a commonly used planning methodology, such as Kanban, Trello, Jira, or Asana. - Simple and clear standards for planning methodology chosen and adhered to -->
+
+08/07/2021
+
+![08/07/2021](./docs/T3A2trello1.png)
