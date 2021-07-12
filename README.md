@@ -14,13 +14,18 @@ Extras
 - Image upload system
 - Pushing notifications (add PhoneNumber to User)
 - parental controls (lock down everything except checklist)
+- Multiple kids per User
 
 ### - Target audience
 Parents with kids that need medicine
 
 ### - Tech stack
 Backend Railsapi
+Backend deployed by Heroku
 Frontend in React
+Frontend deployed by Netlify
+Images by Cloudify
+
 
 ## Dataflow Diagram
 <!-- CMP1043-4.2 Dataflow Diagram - Provides dataflow diagram(s) that strictly follow the standard convensions to clearly identify the processes within your application. Clearly depicts where data is coming from, where it is going and how it is being stored. -->
@@ -31,7 +36,7 @@ Frontend in React
 ## User Stories
 <!-- CMP1043-5.1 Provide UX/UI design documentation(user stories) that adequately show Agile methodology implementation. - Provides multiple user stories that use ‘persona, what and why’ that outline meaningful features of project. Shows evidence of user story revision and refinement. -->
 MVP
-- As a parent, I want a Login system so I can see my information.
+- As a Parent, I want a Login system so I can see my information.
 - As a Parent, I want to make a medicine routine in order to allow my children to take their medicine.
 - As a parent, I want to add medicine to the list if it does not already exist, in order to keep the list accurate.
 - As a kid, I want to have an understandable description of what the medicine does, so I can know why I am taking it.
