@@ -15,13 +15,14 @@ MVP
 Extras
 - Image upload system
 - Pushing notifications (add PhoneNumber to User)
-- parental controls (lock down everything except checklist)
+- Parental controls (lock down everything except checklist)
 - Multiple Children for each parent user
 
 ### - Target audience
 The target audience for the application will be parents. Specifically parents with kids that need medicine. Due to parents quite often being busy with other their careers or other errands that they need to run, remembering the specific times that their children's medication needs to be taken, and following up with it can escape them. Hence with an application that acts as a checklist and pushes notifications to them will be highly advantageous to them. 
 
 ### - Tech stack
+
 The tech-stack that will be utilised in the project will focus on the use of Ruby on Rails, in an api format for the backend functions of the application. 
 
 For the front-end functions of the application, the framework React will be utilised to make a component based scaffold. 
