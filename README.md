@@ -16,6 +16,7 @@ Extras
 - Image upload system
 - Pushing notifications (add PhoneNumber to User)
 - parental controls (lock down everything except checklist)
+- Multiple Children for each parent user
 
 ### - Target audience
 The target audience for the application will be parents. Specifically parents with kids that need medicine. Due to parents quite often being busy with other their careers or other errands that they need to run, remembering the specific times that their children's medication needs to be taken, and following up with it can escape them. Hence with an application that acts as a checklist and pushes notifications to them will be highly advantageous to them. 
@@ -29,7 +30,7 @@ The web-hosting service used for the application will be the free service Heroku
 
 In terms of source control software, Github has been chosen as the available features of the service matches what is required for the project to be successful. The developers on the team also have a moderate amount of experience using Github as a source control system adding more reason to use it. 
 
-Due to the project having a possible feature of utilising image upload, an image storage method needs to be considered. Upon discussion within the team, the best choice was deemed to be the cloud storage serivce Cloudinary. This is primarily due to the fact that this has been used in the past with previous projects and has shown reliability when it has been used. 
+Due to the project having a possible feature of utilising image upload, an image storage method needs to be considered. Upon discussion within the team, the best choice was deemed to be the cloud storage service Cloudinary. This is primarily due to the fact that this has been used in the past with previous projects and has shown reliability when it has been used. 
 
 ## Dataflow Diagram
 <!-- CMP1043-4.2 Dataflow Diagram - Provides dataflow diagram(s) that strictly follow the standard convensions to clearly identify the processes within your application. Clearly depicts where data is coming from, where it is going and how it is being stored. -->
@@ -51,6 +52,7 @@ Extras
 - As a parent/kid, I would like to have an Image of the medicine so I know what the medicine looks like
 - As a busy parent, I would like the reminders to be sent to my mobile, so I can still receive them on the go.
 - As a parent/user i would like to be able to sign up using my google account, as it makes it easier to access, and manage my data and what has access to it. 
+- As a parent i would like to be able to have a separate list for each of my children, so i can easily track everyone in my family
 
 ## Wireframes for multiple standard screen sizes, created using industry standard software
 
