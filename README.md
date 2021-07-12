@@ -1,6 +1,8 @@
 ## Description of your website, including:
 ### - Purpose
-Ensure kids take their medicine.
+The application concept chosen is an application that provides parents a checklist for the various medications that their children may have to take. The main purpose of the application is to ensure that the children are taking their medication. 
+
+The application also has a sub purpose of building good habits within the users by utilising positive reinforcement via a rewards system. 
 ### - Functionality / features
 MVP
 - Parents can make the checklist
@@ -13,19 +15,23 @@ MVP
 Extras
 - Image upload system
 - Pushing notifications (add PhoneNumber to User)
-- parental controls (lock down everything except checklist)
-- Multiple kids per User
+- Parental controls (lock down everything except checklist)
+- Multiple Children for each parent user
 
 ### - Target audience
-Parents with kids that need medicine
+The target audience for the application will be parents. Specifically parents with kids that need medicine. Due to parents quite often being busy with other their careers or other errands that they need to run, remembering the specific times that their children's medication needs to be taken, and following up with it can escape them. Hence with an application that acts as a checklist and pushes notifications to them will be highly advantageous to them. 
 
 ### - Tech stack
-Backend Railsapi
-Backend deployed by Heroku
-Frontend in React
-Frontend deployed by Netlify
-Images by Cloudify
 
+The tech-stack that will be utilised in the project will focus on the use of Ruby on Rails, in an api format for the backend functions of the application. 
+
+For the front-end functions of the application, the framework React will be utilised to make a component based scaffold. 
+
+The web-hosting service used for the application will be the free service Heroku. This was decided due to the teams previous experience with the service and easily integrated terminal or console tool that Heroku utilises for deployment purposes. 
+
+In terms of source control software, Github has been chosen as the available features of the service matches what is required for the project to be successful. The developers on the team also have a moderate amount of experience using Github as a source control system adding more reason to use it. 
+
+Due to the project having a possible feature of utilising image upload, an image storage method needs to be considered. Upon discussion within the team, the best choice was deemed to be the cloud storage service Cloudinary. This is primarily due to the fact that this has been used in the past with previous projects and has shown reliability when it has been used. 
 
 ## Dataflow Diagram
 <!-- CMP1043-4.2 Dataflow Diagram - Provides dataflow diagram(s) that strictly follow the standard convensions to clearly identify the processes within your application. Clearly depicts where data is coming from, where it is going and how it is being stored. -->
@@ -36,7 +42,7 @@ Images by Cloudify
 ## User Stories
 <!-- CMP1043-5.1 Provide UX/UI design documentation(user stories) that adequately show Agile methodology implementation. - Provides multiple user stories that use ‘persona, what and why’ that outline meaningful features of project. Shows evidence of user story revision and refinement. -->
 MVP
-- As a Parent, I want a Login system so I can see my information.
+- As a parent, I want a Login system so I can login and see the various information on any device whilst i am on the go.
 - As a Parent, I want to make a medicine routine in order to allow my children to take their medicine.
 - As a parent, I want to add medicine to the list if it does not already exist, in order to keep the list accurate.
 - As a kid, I want to have an understandable description of what the medicine does, so I can know why I am taking it.
@@ -46,6 +52,8 @@ MVP
 Extras
 - As a parent/kid, I would like to have an Image of the medicine so I know what the medicine looks like
 - As a busy parent, I would like the reminders to be sent to my mobile, so I can still receive them on the go.
+- As a parent/user i would like to be able to sign up using my google account, as it makes it easier to access, and manage my data and what has access to it. 
+- As a parent i would like to be able to have a separate list for each of my children, so i can easily track everyone in my family
 
 ## Wireframes for multiple standard screen sizes, created using industry standard software
 
