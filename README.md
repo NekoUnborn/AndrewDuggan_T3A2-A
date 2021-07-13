@@ -96,13 +96,13 @@ Extras
 
 ### Medication CRUD Functionality:
 #### Index: 
-![Medication Index Page](./docs/wireframes/mobile/Medication-index.png)
+![Medication Index Page](./docs/wireframes/mobile/Medication-Index.png)
 
 #### Add Medication: 
 ![Page and Form to add a medication to the stored list](./docs/wireframes/mobile/AdMedication.png)
 
 #### Show Individual Medication: 
-![Page that shows an individual Medication upon Selection](./docs/wireframes/mobile/Medication-show.png)
+![Page that shows an individual Medication upon Selection](./docs/wireframes/mobile/Medication-Show.png)
 <hr>
 
 ### Kid/Child CRUD Functionality:
