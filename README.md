@@ -11,11 +11,11 @@ MVP
 - Parents can create a checklist
 - Parents can modify an existing checklist
 - Reward system
-- Reminder system via email
+- Reminder system
 
 Extras
 - Image upload system
-- Pushing notifications (add PhoneNumber to User)
+- Pushing reminders via email and mobile notifications (add PhoneNumber to User)
 - Parental controls (lock down everything except checklist)
 - Parents can view checklist history
 - Multiple Childs for each parent user
