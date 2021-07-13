@@ -5,18 +5,20 @@ The application concept chosen is an application that provides parents a checkli
 The application also has a sub purpose of building good habits within the users by utilising positive reinforcement via a rewards system. 
 ### - Functionality / features
 MVP
-- Parents can make the checklist
-- Allows parents to add medicine
-- Kids description of what the medicine does
+- Login (Username, email, password)
+- Allows parents to view all listed medication
+- Allows parents to add medicine information
+- Parents can create a checklist
+- Parents can modify an existing checklist
 - Reward system
 - Reminder system via email
-- Login (Username, email, password)
 
 Extras
 - Image upload system
 - Pushing notifications (add PhoneNumber to User)
 - Parental controls (lock down everything except checklist)
-- Multiple Children for each parent user
+- Parents can view checklist history
+- Multiple Childs for each parent user
 
 ### - Target audience
 The target audience for the application will be parents. Specifically parents with kids that need medicine. Due to parents quite often being busy with other their careers or other errands that they need to run, remembering the specific times that their children's medication needs to be taken, and following up with it can escape them. Hence with an application that acts as a checklist and pushes notifications to them will be highly advantageous to them. 
@@ -33,11 +35,19 @@ In terms of source control software, Github has been chosen as the available fea
 
 Due to the project having a possible feature of utilising image upload, an image storage method needs to be considered. Upon discussion within the team, the best choice was deemed to be the cloud storage service Cloudinary. This is primarily due to the fact that this has been used in the past with previous projects and has shown reliability when it has been used. 
 
-## Dataflow Diagram
+## Dataflow Diagrams
 <!-- CMP1043-4.2 Dataflow Diagram - Provides dataflow diagram(s) that strictly follow the standard convensions to clearly identify the processes within your application. Clearly depicts where data is coming from, where it is going and how it is being stored. -->
+
+### User Functions
+![User](./docs/T3A2_DFDs-User.png)
+
+### Child Functions
+![Child](./docs/T3A2_DFDs-Child.png)
 
 ## Application Architecture Diagram
 <!-- CMP1043-4.3 Application Architecture Diagram - Shows understanding of the high level structure of the app -->
+
+![AAD](./docs/T3A2_AAD.png)
 
 ## User Stories
 <!-- CMP1043-5.1 Provide UX/UI design documentation(user stories) that adequately show Agile methodology implementation. - Provides multiple user stories that use ‘persona, what and why’ that outline meaningful features of project. Shows evidence of user story revision and refinement. -->
@@ -63,6 +73,10 @@ Extras
 ## Screenshots of your Trello board throughout the duration of the project
 <!-- CMP1043-5.2 Select and follow a commonly used planning methodology, such as Kanban, Trello, Jira, or Asana. - Simple and clear standards for planning methodology chosen and adhered to -->
 
-08/07/2021
+### 08/07/2021
 
 ![08/07/2021](./docs/T3A2trello1.png)
+
+### 13/07/2021
+
+![13/07/2021](./docs/T3A2trello2.png)
