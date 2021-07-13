@@ -68,7 +68,53 @@ Extras
 - As a parent/user i would like to be able to sign up using my google account, as it makes it easier to access, and manage my data and what has access to it. 
 
 ## Wireframes for multiple standard screen sizes, created using industry standard software
+## Mobile Wireframes
+### Misc Pages:
+#### Login:
+![Login Page for mobile](./docs/wireframes/mobile/Login.png)
+#### Signup:
+![Signup Page for mobile](./docs/wireframes/mobile/SignUp.png)
 
+#### Nav Bar Page (Hamburger Menu)
+![Mobile view on how the Hamburger menu will look](./docs/wireframes/mobile/Nav.png)
+<hr>
+
+
+### User Management Pages 
+#### Home Page: 
+![Home Page for the application in mobile view](./docs/wireframes/mobile/Home.png)
+
+#### Change Username/Email Page:
+![Mobile View of the Change email or username form](./docs/wireframes/mobile/UpdateDetails.png)
+
+
+#### Change Password Page:
+![Mobile View of the change/reset password form](./docs/wireframes/mobile/UpdateDetails.png)
+
+
+#### Show Details Page: 
+![MobileView of the main details page of the user](./docs/wireframes/mobile/ShowDetails.png)
+<hr>
+
+### Medication CRUD Functionality:
+#### Index: 
+![Medication Index Page](./docs/wireframes/mobile/Medication-Index.png)
+
+#### Add Medication: 
+![Page and Form to add a medication to the stored list](./docs/wireframes/mobile/AdMedication.png)
+
+#### Show Individual Medication: 
+![Page that shows an individual Medication upon Selection](./docs/wireframes/mobile/Medication-Show.png)
+<hr>
+
+### Kid/Child CRUD Functionality:
+
+#### Show Kid:
+![Show Individual Child and their checklist of medication](./docs/wireframes/mobile/ShowKid.png)
+
+#### Add/Edit Child:
+![Part 1 of the add/edit child form in mobile view](./docs/wireframes/mobile/AddEditKid2.png)
+![Part 2 of the add/edit child form in mobile view](./docs/wireframes/mobile/AddEditKid1.png)
 <!-- CMP1043-4.1 Utilise an industry standard program for creation of wireframes & CMP1043-5.3 Provide UX/UI design documentation(wireframes) that adequately show Agile methodology implementation. - Provides wireframes that show exceptional planning of project flow and structure including but not limited to space distribution, content prioritisation, intended actions, functions, relationships between screens. -->
 
 
