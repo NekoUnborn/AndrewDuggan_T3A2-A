@@ -61,6 +61,7 @@ MVP
 - As a parent, I want a Reminder system so I can be told if my kids have not had their medicine.
 
 Extras
+- As an Admin, I want full access, so I can administer the application.
 - As a parent/kid, I would like to have an Image of the medicine so I know what the medicine looks like
 - As a busy parent, I would like the reminders to be sent to my mobile, so I can still receive them on the go.
 - As a parent, I want to stop the children from accessing the editing features in order to stop them from changing the checklists.
