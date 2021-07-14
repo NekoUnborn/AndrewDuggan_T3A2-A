@@ -73,11 +73,22 @@ Extras
 ### Misc Pages:
 #### Login:
 ![Login Page for mobile](./docs/wireframes/mobile/Login.png)
-#### Signup:
-![Signup Page for mobile](./docs/wireframes/mobile/SignUp.png)
 
+
+The login page has been deisgned this way to suit a few different concepts. The main concept it is aiming to achieve is simplicity. By only showing the form, name of the app and a simple image, the user is not bombarded with information, and the purpose and goal of the page is made clear. This also links in well with the reasoning for the form to be centered on the page. By centering it, the form becomes the user's focus and they will complete that first. Once the form is complete and submitted, the page will then link to the primary home page. 
+
+The logo and image act as a box that contains the form and breaks up the white space on the page, making the page seem more lively and aesthetically appealing.
+
+Another point of note on this page is that the menu or hamburger menu icon is not present. This was an intentional design choice to prevent users trying to navigate away from the page before logging in or signing up. It is assumed that a user may still try to navigate away using the URL, however authentication will be applied to counteract this aspect.
+
+#### Sign-up:
+![Signup Page for mobile](./docs/wireframes/mobile/SignUp.png)
+The sign-up page follows almost identical reasoning as the login page. With only a small addition to the form as additional information is required to sign up a user to the website. 
 #### Nav Bar Page (Hamburger Menu)
 ![Mobile view on how the Hamburger menu will look](./docs/wireframes/mobile/Nav.png)
+
+This view is a rough idea on what the hamburger menu will look like once the user has clicked on it. The positioning of the hamburger menu icon will be placed on the top left corner, due to the way a user eye tracks and flows across a page (Left to right, top to bottom). 
+
 <hr>
 
 
@@ -118,6 +129,35 @@ Extras
 ![Part 2 of the add/edit child form in mobile view](./docs/wireframes/mobile/AddEditKid1.png)
 <!-- CMP1043-4.1 Utilise an industry standard program for creation of wireframes & CMP1043-5.3 Provide UX/UI design documentation(wireframes) that adequately show Agile methodology implementation. - Provides wireframes that show exceptional planning of project flow and structure including but not limited to space distribution, content prioritisation, intended actions, functions, relationships between screens. -->
 
+## Desktop/Tablet Wireframes:
+### Login/Signup:
+Login:
+![Login Page of the Application](./docs/wireframes/desktop/LoginDesktopTab.png)
+
+Sign-up: 
+![Signup Page of the Application](./docs/wireframes/desktop/SignupDesktopTab.png)
+
+### Checklist Pages: 
+Add/Edit Checklist: 
+![Page and Form to add or edit a Checklist to a  Child for the User](./docs/wireframes/desktop/AddChecklistDesktopTab.png)
+Show Checklist Page: 
+![Page that displays a selected Checklist for the speciifc user logged in](./docs/wireframes/desktop/ShowCheckDesktopTab.png)
+
+### Medication Pages: 
+Add Medication:
+![Page and Form to add a medication to the medication database](./docs/wireframes/desktop/AddMedDesktopTab.png)
+Show Medication:
+![Page that displays the medication for the user when a speciifc medication is selected](./docs/wireframes/desktop/ShowMedDesktopTab.png)
+Medication Index: 
+![Page that displays the entire list of medication for the user to view](./docs/wireframes/desktop/MedIndexDesktopTab.png)
+
+### Misc Pages:
+Reset Password: 
+![Page that displays the form to reset a password](./docs/wireframes/desktop/ResetPassDesktopTab.png)
+Update Email or Username:
+![Page that displays the form to update User details such as email and username](./docs/wireframes/desktop/UpdateEmailDesktopTab.png)
+Home/Dashboard Page:
+![Page that displays the dashboard and primary page for the users](./docs/wireframes/desktop/HomeDesktopTab.png)
 
 ## [Screenshots of your Trello board throughout the duration of the project](https://trello.com/b/knoPp8L3/coderacademyt3a2)
 <!-- CMP1043-5.2 Select and follow a commonly used planning methodology, such as Kanban, Trello, Jira, or Asana. - Simple and clear standards for planning methodology chosen and adhered to -->
@@ -129,3 +169,35 @@ Extras
 ### 13/07/2021
 
 ![13/07/2021](./docs/T3A2trello2.png)
+
+## 14/07/2021
+
+![14/7/2021](./docs/T3A2trello3.png)
+
+
+## Wireframe Review: 
+
+Remove hamburger menu, and only allow for Admin to access it, also not necessary due to being admin only.
+
+
+## Password + Username: 
+
+Combine the two to reduce the amount of pages needed to render. 
+
+## DEtails Page
+
+Not needed, can scrap. 
+
+## Admin Pages, 
+Take all of the index pages and make them exclusively accessible by the admin. 
+
+## Medication Show: 
+Scrap this page. 
+
+## Add Checklist/Edit
+
+Cahnge checklist to be an autosuggest field that they can then add to. Use the Downshift React Library
+
+
+
+Database Flow Diagram: Items that are received from the database is now being changed to an array of items instead of a full DB entry
