@@ -103,9 +103,6 @@ This view is a rough idea on what the hamburger menu will look like once the use
 #### Change Password Page:
 ![Mobile View of the change/reset password form](./docs/wireframes/mobile/UpdateDetails.png)
 
-
-#### Show Details Page: 
-![MobileView of the main details page of the user](./docs/wireframes/mobile/ShowDetails.png)
 <hr>
 
 ### Medication CRUD Functionality:
@@ -115,8 +112,6 @@ This view is a rough idea on what the hamburger menu will look like once the use
 #### Add Medication: 
 ![Page and Form to add a medication to the stored list](./docs/wireframes/mobile/AdMedication.png)
 
-#### Show Individual Medication: 
-![Page that shows an individual Medication upon Selection](./docs/wireframes/mobile/Medication-Show.png)
 <hr>
 
 ### Kid/Child CRUD Functionality:
