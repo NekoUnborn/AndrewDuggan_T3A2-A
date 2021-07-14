@@ -75,7 +75,7 @@ Extras
 ![Login Page for mobile](./docs/wireframes/mobile/Login.png)
 
 
-The login page has been deisgned this way to suit a few different concepts. The main concept it is aiming to achieve is simplicity. By only showing the form, name of the app and a simple image, the user is not bombarded with information, and the purpose and goal of the page is made clear. This also links in well with the reasoning for the form to be centered on the page. By centering it, the form becomes the user's focus and they will complete that first. Once the form is complete and submitted, the page will then link to the primary home page. 
+The login page has been designed this way to suit a few different concepts. The main concept it is aiming to achieve is simplicity. By only showing the form, name of the app and a simple image, the user is not bombarded with information, and the purpose and goal of the page is made clear. This also links in well with the reasoning for the form to be centered on the page. By centering it, the form becomes the user's focus and they will complete that first. Once the form is complete and submitted, the page will then link to the primary home page. 
 
 The logo and image act as a box that contains the form and breaks up the white space on the page, making the page seem more lively and aesthetically appealing.
 
@@ -83,6 +83,7 @@ Another point of note on this page is that the menu or hamburger menu icon is no
 
 #### Sign-up:
 ![Signup Page for mobile](./docs/wireframes/mobile/SignUp.png)
+
 The sign-up page follows almost identical reasoning as the login page. With only a small addition to the form as additional information is required to sign up a user to the website. 
 #### Nav Bar Page (Hamburger Menu)
 ![Mobile view on how the Hamburger menu will look](./docs/wireframes/mobile/Nav.png)
@@ -96,21 +97,31 @@ This view is a rough idea on what the hamburger menu will look like once the use
 #### Home Page: 
 ![Home Page for the application in mobile view](./docs/wireframes/mobile/Home.png)
 
+This page acts as the dashboard for the website and will be the primary page that the users interacts with. Because of this, the page is very basic and simple. The page is split into roughly three very simple components, the logo, a button that links to the different medications, and the medications CRUD functions, and a control center for the different checklists and children that the user has previously registered, as well as a link to add a new child. 
+
+Priority of space was given for the Child Control center, due to this being a more important aspect of the dashboard, while also containing the most data and information on the page as well. The other aspects of the page merely act as links or items to fill in unnecessary white space. The lines at the top and bottom of the pages were decided upon, to create a pseudo container for all of the items on the page, forcing the users to focus on the centered content, and avoid the empty edges of the page. 
+
 #### Change Username/Email Page:
 ![Mobile View of the Change email or username form](./docs/wireframes/mobile/UpdateDetails.png)
 
-
-#### Change Password Page:
-![Mobile View of the change/reset password form](./docs/wireframes/mobile/UpdateDetails.png)
-
+Once again, much like the login and sign-up pages,  the change details page, utilises a centered form and image to draw the attention of the user to the main focus of the page. This also ties in with the aim to make the application aesthetically pleasing to the user, and achieve a sleek and streamlined design. 
 <hr>
 
 ### Medication CRUD Functionality:
 #### Index: 
 ![Medication Index Page](./docs/wireframes/mobile/Medication-Index.png)
 
+This page is where the user will be able to view the entire range of medication currently available to be viewed or added to a checklist.A grid layout of all of the medication is utilises to neatly layout and order the medication. This was done to achieve the client goal of the application being visually appealing to its users, as well as following the natural way that user's eye movement flows. By ordering in the natural way eye movement flows, it makes it easier for the user to find, interact and view the listed medications. 
+
 #### Add Medication: 
 ![Page and Form to add a medication to the stored list](./docs/wireframes/mobile/AdMedication.png)
+
+
+When adding a medication to the DB, the application will render  a component made up of a simple heading and single page form. This is to ensure that the process is as simple as possible for the user and avoid causing any confusion, with unnecessary images and fields. 
+
+The single page form was chosen due to the fact that the amount of input fields that the user has to fill out is a very small amount, hence rendering multiple components would be a waste, as well as cause issues if the user wanted to change data in a previous field. 
+
+The two buttons below the form allow the user to either return back to the previous page without submitting any data, or if they are happy to add their desired medication, then the submit button will send the data to the server and then redirect the user back to the medication index page. 
 
 <hr>
 
@@ -119,9 +130,17 @@ This view is a rough idea on what the hamburger menu will look like once the use
 #### Show Kid:
 ![Show Individual Child and their checklist of medication](./docs/wireframes/mobile/ShowKid.png)
 
+This page represents an individual page that the user can access to view an individual checklist that they have created. This page displays the name of the checklist/child that has been created at the top of the page, so the user can easily see what checklist they are looking at right away and can either continue or change to another list if they need to. 
+
+Following the heading, and acting as the main content of the page is the checklist component. This has been centered to draw all focus to itself. This was also the reasoning behind making it so large. Within the checklist component, there are two columns, each aligned to their respective sides, i.e The checkboxes and text are aligned to the left, while the time input field is aligned to the right side of the component. Each checkbox and their matching time field are left on the same line, so users can imply and understand that they are related. 
+
+These features also work to improve the overall style of the page and make it pleasant for the user to look at.
+
 #### Add/Edit Child:
 ![Part 1 of the add/edit child form in mobile view](./docs/wireframes/mobile/AddEditKid2.png)
 ![Part 2 of the add/edit child form in mobile view](./docs/wireframes/mobile/AddEditKid1.png)
+
+Need to update these wireframes. Also document the changes made. 
 <!-- CMP1043-4.1 Utilise an industry standard program for creation of wireframes & CMP1043-5.3 Provide UX/UI design documentation(wireframes) that adequately show Agile methodology implementation. - Provides wireframes that show exceptional planning of project flow and structure including but not limited to space distribution, content prioritisation, intended actions, functions, relationships between screens. -->
 
 ## Desktop/Tablet Wireframes:
@@ -169,6 +188,9 @@ Home/Dashboard Page:
 
 ![14/7/2021](./docs/T3A2trello3.png)
 
+## 14/07/2021 3:48pm
+
+![14/7/2021 @ 3:48pm](./docs/T3A2trello4.png)
 
 ## Wireframe Review: 
 
@@ -196,3 +218,4 @@ Cahnge checklist to be an autosuggest field that they can then add to. Use the D
 
 
 Database Flow Diagram: Items that are received from the database is now being changed to an array of items instead of a full DB entry
+
