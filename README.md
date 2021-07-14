@@ -117,6 +117,35 @@ Extras
 ![Part 2 of the add/edit child form in mobile view](./docs/wireframes/mobile/AddEditKid1.png)
 <!-- CMP1043-4.1 Utilise an industry standard program for creation of wireframes & CMP1043-5.3 Provide UX/UI design documentation(wireframes) that adequately show Agile methodology implementation. - Provides wireframes that show exceptional planning of project flow and structure including but not limited to space distribution, content prioritisation, intended actions, functions, relationships between screens. -->
 
+## Desktop/Tablet Wireframes:
+### Login/Signup:
+Login:
+![Login Page of the Application](./docs/wireframes/desktop/LoginDesktopTab.png)
+
+Sign-up: 
+![Signup Page of the Application](./docs/wireframes/desktop/SignupDesktopTab.png)
+
+### Checklist Pages: 
+Add/Edit Checklist: 
+![Page and Form to add or edit a Checklist to a  Child for the User](./docs/wireframes/desktop/AddChecklistDesktopTab.png)
+Show Checklist Page: 
+![Page that displays a selected Checklist for the speciifc user logged in](./docs/wireframes/desktop/ShowCheckDesktopTab.png)
+
+### Medication Pages: 
+Add Medication:
+![Page and Form to add a medication to the medication database](./docs/wireframes/desktop/AddMedDesktopTab.png)
+Show Medication:
+![Page that displays the medication for the user when a speciifc medication is selected](./docs/wireframes/desktop/ShowMedDesktopTab.png)
+Medication Index: 
+![Page that displays the entire list of medication for the user to view](./docs/wireframes/desktop/MedIndexDesktopTab.png)
+
+### Misc Pages:
+Reset Password: 
+![Page that displays the form to reset a password](./docs/wireframes/desktop/ResetPassDesktopTab.png)
+Update Email or Username:
+![Page that displays the form to update User details such as email and username](./docs/wireframes/desktop/UpdateEmailDesktopTab.png)
+Home/Dashboard Page:
+![Page that displays the dashboard and primary page for the users](./docs/wireframes/desktop/HomeDesktopTab.png)
 
 ## [Screenshots of your Trello board throughout the duration of the project](https://trello.com/b/knoPp8L3/coderacademyt3a2)
 <!-- CMP1043-5.2 Select and follow a commonly used planning methodology, such as Kanban, Trello, Jira, or Asana. - Simple and clear standards for planning methodology chosen and adhered to -->
