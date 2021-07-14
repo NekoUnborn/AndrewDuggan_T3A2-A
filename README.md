@@ -78,14 +78,15 @@ The login page has been deisgned this way to suit a few different concepts. The 
 
 The logo and image act as a box that contains the form and breaks up the white space on the page, making the page seem more lively and aesthetically appealing.
 
-Another point of note on this page is that the menu or hamburger menu icon is not present. This was an intentional design choice to prevent users trying to navigate away from the page before logging in or signing up. It is assumed that a user may still try to navigate away using the URL, however authentication will be applied to counteract this aspect. 
-#### Signup:
+Another point of note on this page is that the menu or hamburger menu icon is not present. This was an intentional design choice to prevent users trying to navigate away from the page before logging in or signing up. It is assumed that a user may still try to navigate away using the URL, however authentication will be applied to counteract this aspect.
+
+#### Sign-up:
 ![Signup Page for mobile](./docs/wireframes/mobile/SignUp.png)
-The signup page follows almost identical reasoning as the login page. With only a small addition to the form as additinal information is required to sign up a user to the website. 
+The sign-up page follows almost identical reasoning as the login page. With only a small addition to the form as additional information is required to sign up a user to the website. 
 #### Nav Bar Page (Hamburger Menu)
 ![Mobile view on how the Hamburger menu will look](./docs/wireframes/mobile/Nav.png)
 
-This view is a rough idea on what the hamburger menu will look like once the user has clicked on it. The positioning of the ham
+This view is a rough idea on what the hamburger menu will look like once the user has clicked on it. The positioning of the hamburger menu icon will be placed on the top left corner, due to the way a user eye tracks and flows across a page (Left to right, top to bottom). 
 
 <hr>
 
@@ -171,3 +172,31 @@ Home/Dashboard Page:
 ## 14/07/2021
 
 ![14/7/2021](./docs/T3A2trello3.png)
+
+
+## Wireframe Review: 
+
+Remove hamburger menu, and only allow for Admin to access it, also not necessary due to being admin only.
+
+
+## Password + Username: 
+
+Combine the two to reduce the amount of pages needed to render. 
+
+## DEtails Page
+
+Not needed, can scrap. 
+
+## Admin Pages, 
+Take all of the index pages and make them exclusively accessible by the admin. 
+
+## Medication Show: 
+Scrap this page. 
+
+## Add Checklist/Edit
+
+Cahnge checklist to be an autosuggest field that they can then add to. Use the Downshift React Library
+
+
+
+Database Flow Diagram: Items that are received from the database is now being changed to an array of items instead of a full DB entry
