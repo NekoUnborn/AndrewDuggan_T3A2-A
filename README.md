@@ -72,11 +72,21 @@ Extras
 ### Misc Pages:
 #### Login:
 ![Login Page for mobile](./docs/wireframes/mobile/Login.png)
+
+
+The login page has been deisgned this way to suit a few different concepts. The main concept it is aiming to achieve is simplicity. By only showing the form, name of the app and a simple image, the user is not bombarded with information, and the purpose and goal of the page is made clear. This also links in well with the reasoning for the form to be centered on the page. By centering it, the form becomes the user's focus and they will complete that first. Once the form is complete and submitted, the page will then link to the primary home page. 
+
+The logo and image act as a box that contains the form and breaks up the white space on the page, making the page seem more lively and aesthetically appealing.
+
+Another point of note on this page is that the menu or hamburger menu icon is not present. This was an intentional design choice to prevent users trying to navigate away from the page before logging in or signing up. It is assumed that a user may still try to navigate away using the URL, however authentication will be applied to counteract this aspect. 
 #### Signup:
 ![Signup Page for mobile](./docs/wireframes/mobile/SignUp.png)
-
+The signup page follows almost identical reasoning as the login page. With only a small addition to the form as additinal information is required to sign up a user to the website. 
 #### Nav Bar Page (Hamburger Menu)
 ![Mobile view on how the Hamburger menu will look](./docs/wireframes/mobile/Nav.png)
+
+This view is a rough idea on what the hamburger menu will look like once the user has clicked on it. The positioning of the ham
+
 <hr>
 
 
@@ -157,3 +167,7 @@ Home/Dashboard Page:
 ### 13/07/2021
 
 ![13/07/2021](./docs/T3A2trello2.png)
+
+## 14/07/2021
+
+![14/7/2021](./docs/T3A2trello3.png)
