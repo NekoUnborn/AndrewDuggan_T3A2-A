@@ -147,31 +147,49 @@ Need to update these wireframes. Also document the changes made.
 ### Login/Signup:
 Login:
 ![Login Page of the Application](./docs/wireframes/desktop/LoginDesktopTab.png)
+The wireframe design was decided on, by taking inspiration from other websites found randomly. The primary reasoning was to make the page aesthetically pleasing. By keeping the page simple, the overall styling of the page is a lot more streamlined and visually appealing. 
+
+The sign-in form is kept to the left as that is naturally where the users eye line defaults to. 
 
 Sign-up: 
 ![Signup Page of the Application](./docs/wireframes/desktop/SignupDesktopTab.png)
 
+The same principles and reasoning for the login page were also applied to the sign-up page as well. 
+
 ### Checklist Pages: 
 Add/Edit Checklist: 
 ![Page and Form to add or edit a Checklist to a  Child for the User](./docs/wireframes/desktop/AddChecklistDesktopTab.png)
+This page has two fields. One is the form to create the checklist. The second is a feature to have the user be able to see a preview of the checklist they are making. This adds another level of control for the user, and also fills out the page a bit mroe. The rpeview was placed on the right as it is lower in priority to the user. 
+Show Medication:
 Show Checklist Page: 
 ![Page that displays a selected Checklist for the speciifc user logged in](./docs/wireframes/desktop/ShowCheckDesktopTab.png)
 
+This page was simply designed to shoew the checklist for the user. It was kept simple with only displaying the checklist information and nothing else. This was done to make the page visually appealing and allow the user to find the information they need with ease. 
 ### Medication Pages: 
 Add Medication:
 ![Page and Form to add a medication to the medication database](./docs/wireframes/desktop/AddMedDesktopTab.png)
-Show Medication:
-![Page that displays the medication for the user when a speciifc medication is selected](./docs/wireframes/desktop/ShowMedDesktopTab.png)
-Medication Index: 
+The add medication page features form that is aligned to the l;eft to highlight that it should be the first thing that the user is looking at and using. The page then has a preview feature as a secondary component on the page. This was added to fill out the page a bit more, and add more dynamic interactivity to the page to engage the user. 
 ![Page that displays the entire list of medication for the user to view](./docs/wireframes/desktop/MedIndexDesktopTab.png)
+
+A grid style format for this page was selected, as it was the neatest and most stylised option to display all of the different data that would be output to the page. This method gives ample space for all of the data to be neatly output so the user can read it with ease. 
 
 ### Misc Pages:
 Reset Password: 
 ![Page that displays the form to reset a password](./docs/wireframes/desktop/ResetPassDesktopTab.png)
+
 Update Email or Username:
+
 ![Page that displays the form to update User details such as email and username](./docs/wireframes/desktop/UpdateEmailDesktopTab.png)
+
+The rest password and update email pages follow a similar style to the login page, as the content rendered on the page will largely be the same. Hence in order ot keep the style of the page consistent it was decided to have these pages match. 
+
+
 Home/Dashboard Page:
 ![Page that displays the dashboard and primary page for the users](./docs/wireframes/desktop/HomeDesktopTab.png)
+
+The dashboard page has been designed this way to make the page visually appealing to the user. The children/checklist box takes up the most amount of space due to it being more important than the medication and details fields. 
+
+
 
 ## [Screenshots of your Trello board throughout the duration of the project](https://trello.com/b/knoPp8L3/coderacademyt3a2)
 <!-- CMP1043-5.2 Select and follow a commonly used planning methodology, such as Kanban, Trello, Jira, or Asana. - Simple and clear standards for planning methodology chosen and adhered to -->
@@ -192,30 +210,4 @@ Home/Dashboard Page:
 
 ![14/7/2021 @ 3:48pm](./docs/T3A2trello4.png)
 
-## Wireframe Review: 
-
-Remove hamburger menu, and only allow for Admin to access it, also not necessary due to being admin only.
-
-
-## Password + Username: 
-
-Combine the two to reduce the amount of pages needed to render. 
-
-## DEtails Page
-
-Not needed, can scrap. 
-
-## Admin Pages, 
-Take all of the index pages and make them exclusively accessible by the admin. 
-
-## Medication Show: 
-Scrap this page. 
-
-## Add Checklist/Edit
-
-Cahnge checklist to be an autosuggest field that they can then add to. Use the Downshift React Library
-
-
-
-Database Flow Diagram: Items that are received from the database is now being changed to an array of items instead of a full DB entry
 
